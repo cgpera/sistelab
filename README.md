@@ -7,9 +7,7 @@ _Procedimiento con GitHub:_
 __En directorio de trabajo:__
 
 git init
-
 git add .
-
 git status
 git commit -m "leyenda"
 git remote add origin https://.... _(sincronizo lo local con el proyecto que recién creé, primero crear repositorio de github)_
