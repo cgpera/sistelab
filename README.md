@@ -7,6 +7,7 @@ _Procedimiento con GitHub:_
 __En directorio de trabajo:__
 
 git init
+
 git add .
 
 git status
