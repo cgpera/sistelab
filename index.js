@@ -6,6 +6,13 @@ const path = require('path'),
   app = express(),
   staticPath = path.join(__dirname, '/public');
 
+// Para mandar mails hay que hacerse una cuenta en https://app.mailgun.com/
+// Para correr la aplicacion primero hay que setear las variables de entorno:
+// export MAILGUN_API_KEY=key
+// export MAILGUN_DOMAIN=domain
+// export MAILGUN_MAIL=mail
+// Luego lo corremos con npm start
+
 app.use(bodyParser.json({ extended: true }));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(staticPath));
